@@ -1,0 +1,21 @@
+trainer: ensemble
+ensemble_type: weighted  # Options: average, weighted, learnable
+model_args:
+  visualbert_model_name: 'uclanlp/visualbert-nlvr2-coco-pre'
+  clip_model_name: 'openai/clip-vit-base-patch16'
+  dropout_rate: 0.1
+  topic_dim: 20
+loss: bce_with_logits
+loss_args: {}
+dataset: meme_hate
+dataset_args:
+  annotations_file: 'data/annotations.csv'
+  topic_dist: null
+  tokenizer: null
+  max_length: 128
+  transform: null
+  augment_transform: null
+batch_size: 32
+epochs: 10
+learning_rate: 0.0001
+model_dir: saved_models 
