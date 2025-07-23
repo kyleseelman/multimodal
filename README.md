@@ -1,4 +1,4 @@
-# Modular Meme Hate Classification Project
+# Meme Hate Classification Project
 
 This project provides a modular framework for training CLIP, VisualBERT, and related models on meme hate classification tasks. Users can flexibly select models, loss functions, datasets, and training techniques via configuration files or command-line arguments.
 
