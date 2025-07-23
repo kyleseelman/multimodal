@@ -14,7 +14,7 @@ This project provides a modular framework for training CLIP, VisualBERT, and rel
 
 ## Installation
 
-1. **Install dependencies** (see `requirements.txt`, not included here)
+1. **Install dependencies**
 2. **Prepare your dataset** and update the config file accordingly.
 
 ## Usage
@@ -89,5 +89,3 @@ See the provided YAML files in `configs/` for templates.
 - `configs/multitask.yaml`: Multitask training/evaluation
 
 ---
-
-**This structure enables rapid experimentation and easy extension for new techniques, models, and loss functions.** 
