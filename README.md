@@ -127,6 +127,3 @@ See the provided YAML files in `configs/` for templates.
 - `configs/ensemble.yaml`: Ensemble training/evaluation
 - `configs/multitask.yaml`: Multitask training/evaluation
 
----
-
-**This structure enables rapid experimentation, interpretability, and easy extension for new techniques, models, and loss functions.** 
