@@ -15,7 +15,7 @@ This project provides a modular framework for training CLIP, VisualBERT, and rel
 
 ## Installation
 
-1. **Install dependencies** (see `requirements.txt`, not included here)
+1. **Install dependencies** pip install -r requirements.txt
 2. **Prepare your dataset** and update the config file accordingly.
 
 ## Usage
